@@ -1,0 +1,190 @@
+/* Apply your desired styles here */
+/* Set the background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light Gray background color for the page */
+    color: #333; /* Dark grey text color */
+    font-family: Arial, sans-serif; /* Choose your desired font-family */
+  }
+  
+  /* Organize the sections into containers */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the hero section */
+  #hero {
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: relative; /* Add position property for curved background */
+    overflow: hidden; /* Hide the curved background outside the container */
+  }
+  
+  /* Add a curved background to the top title container */
+  #hero:before {
+    content: "";
+    position: absolute;
+    top: -20px; /* Adjust the curve position */
+    left: -50%;
+    right: -50%;
+    height: 50px; /* Adjust the curve height */
+    background-color: #5ac8c9; /* Turquoise blue */
+    border-radius: 50%;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+  }
+  
+  /* ... Your existing styles for the services section ... */
+  
+  /* Style the about section */
+  #about {
+    background-color: #f8f8f8; /* Light Gray background color */
+    color: #333; /* Dark grey text color */
+    padding: 50px 0;
+    text-align: center;
+    width: 100%; /* Fill the entire width of the page */
+  }
+  
+  #about p {
+    font-size: 20px; /* Increase the font size for the description */
+    line-height: 1.6; /* Add line spacing for better readability */
+    max-width: 800px; /* Set a maximum width for the paragraph */
+    margin: 0 auto; /* Center the paragraph horizontally */
+  }
+  
+  /* ... Your existing styles for the testimonials section ... */
+  
+  /* Style the contact section */
+  #contact {
+    background-color: #f8f8f8; /* Light Gray background color */
+    color: #333; /* Dark grey text color */
+    padding: 50px 0;
+    text-align: center;
+    width: 100%; /* Fill the entire width of the page */
+  }
+  
+  .contact-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff; /* White text color */
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #4caab1; /* Darker Turquoise blue */
+  }
+  
+  /* ... Other styles for the contact page ... */
+  
+  /* Additional styling for a full look */
+  #contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-info-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-text a {
+    color: #5ac8c9; /* Turquoise blue */
+    text-decoration: none;
+    border-bottom: 2px solid #5ac8c9; /* Add a subtle underline on hover */
+    padding-bottom: 2px;
+  }
+  
+  /* Additional styling for a full look */
+  #footer {
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+  /* ... Your existing CSS code ... */
+
+/* Style the trivia section */
+#trivia {
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark grey text color */
+    padding: 50px 0;
+    text-align: center;
+    width: 100%; /* Fill the entire width of the page */
+  }
+  
+  .trivia-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #options button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #options button:hover {
+    background-color: #4caab1; /* Darker Turquoise blue */
+  }
+  
+  #next-btn {
+    background-color: #fcd07a; /* Light Blue */
+    color: #333; /* Dark grey text color */
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #next-btn:hover {
+    background-color: #e8bd5d; /* Darker Light Blue */
+  }
+  
+  #score {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  

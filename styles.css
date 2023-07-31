@@ -1,0 +1,134 @@
+/* Apply your desired styles here */
+/* Set the background color for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background color for the page */
+  }
+  
+  /* Organize the sections into containers */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style the hero section */
+  #hero {
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+  }
+  
+  /* Style the services section */
+  #services {
+    background-color: #fff; /* White background color */
+    padding: 50px 0;
+    width: 100%; /* Fill the entire width of the page */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service {
+    background-color: #fcd07a; /* Light Blue */
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 1 calc(33.33% - 40px); /* Limit the width to 33.33% with spacing */
+  }
+  
+  .service img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* ... Your previous CSS code ... */
+
+/* Style the about section */
+#about {
+  background-color: #f8f8f8; /* Light Gray background color */
+  color: #333; /* Dark grey text color */
+  padding: 50px 20px; /* Add padding to the left and right sides */
+  text-align: center; /* Center align the text */
+  width: 100%; /* Fill the entire width of the page */
+}
+
+/* Make the font size bigger for the description */
+#about p {
+  font-size: 20px; /* Adjust the font size as desired */
+  margin: 0 auto; /* Center the paragraph within the section */
+  max-width: 600px; /* Limit the width of the paragraph for a neat appearance */
+  line-height: 1.6; /* Adjust the line height for better readability */
+}
+
+/* ... Your previous CSS code ... */
+
+  /* Style the testimonials section */
+  /* ... Your testimonials styles ... */
+  
+  /* Style the contact section */
+  #contact {
+    background-color: #f8f8f8; /* Light Gray background color */
+    color: #333; /* Dark grey text color */
+    padding: 50px 0;
+    text-align: center;
+    width: 100%; /* Fill the entire width of the page */
+  }
+  
+  .contact-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff; /* White text color */
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #4caab1; /* Darker Turquoise blue */
+  }
+  
+  /* ... Other styles for the contact page ... */
+  
+  /* ... Your previous CSS code ... */
+
+/* Add a fade-in effect for the services */
+.service {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* ... Your previous CSS code ... */
+  
