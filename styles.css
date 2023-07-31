@@ -131,4 +131,11 @@ body {
   }
   
   /* ... Your previous CSS code ... */
-  
+  /* Additional styling for a full look */
+  #footer {
+    background-color: #5ac8c9; /* Turquoise blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
